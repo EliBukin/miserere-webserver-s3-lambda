@@ -1,0 +1,23 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1617626675970",
+      "Action": "ec2:*",
+      "Effect": "Allow",
+      "Resource": "*"
+    },
+    {
+      "Sid": "Stmt1617626700866",
+      "Action": "s3:*",
+      "Effect": "Allow",
+      "Resource": "*"
+    },
+    {
+      "Sid": "Stmt1617626777424",
+      "Action": "lambda:*",
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}
